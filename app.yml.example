@@ -1,0 +1,15 @@
+# app
+name: go-init
+port: 4006
+# mysql
+sql_user: root
+sql_pass: admin_123
+
+# dev mysql
+dev:
+  sql_host: 127.0.0.1
+  sql_pass: dev
+# prod mysql
+prod:
+  sql_user: 127.0.0.1
+  sql_pass: prod
